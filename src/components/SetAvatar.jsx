@@ -31,7 +31,6 @@ export default function SetAvatar() {
   //   if (!localStorage.getItem(process.env.CHATLI_LOCALHOST_KEY))
   //     navigate("/login");
   // }, []);
-
   const setProfilePicture = async () => {
     if (selectedAvatar === undefined) {
       toast.error("Please select an avatar", toastOptions);
