@@ -25,7 +25,7 @@ export default function SetAvatar() {
   useEffect(() => {
     if (!localStorage.getItem(process.env.CHATLI_LOCALHOST_KEY))
       navigate("/login");
-  }, []);
+  }, [navigate]);
 
   // useEffect(async () => {
   //   if (!localStorage.getItem(process.env.CHATLI_LOCALHOST_KEY))
